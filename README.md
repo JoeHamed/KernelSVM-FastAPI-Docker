@@ -35,8 +35,8 @@ This repository contains a Kernel SVM model trained on the "Social Network Ads" 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/kernel-svm-fastapi-docker.git
-cd kernel-svm-fastapi-docker
+git clone https://github.com/JoeHamed/KernelSVM-FastAPI-Docker.git
+cd KernelSVM-FastAPI-Docker
 ```
 ### 2. Build and Run the Docker Container
 #### Build the Docker Image
