@@ -20,3 +20,33 @@ This repository contains a Kernel SVM model trained on the "Social Network Ads" 
 ├── Dockerfile # Docker configuration 
 └── README.md # Project documentation
 ```
+---
+
+## Requirements
+
+- **Docker**: Ensure Docker is installed on your machine.
+- **Python 3.11** (if running locally without Docker).
+- Python dependencies (listed in `requirements.txt`).
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-repo/kernel-svm-fastapi-docker.git
+cd kernel-svm-fastapi-docker
+```
+### 2. Build and Run the Docker Container
+#### Build the Docker Image
+```bash
+docker build -t kernel-svm-fastapi .
+```
+#### Run the Docker Container
+```bash
+docker run -d -p 8000:8000 kernel-svm-fastapi
+```
+The FastAPI app will be accessible at `http://localhost:8000`.
+
+## Usage
