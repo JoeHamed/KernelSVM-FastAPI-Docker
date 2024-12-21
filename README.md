@@ -12,4 +12,10 @@ This repository contains a Kernel SVM model trained on the "Social Network Ads" 
 
 ## Project Structure
 
-. ├── app/ │ ├── Server.py # FastAPI server code │ ├── model.joblib # Trained Kernel SVM model │ ├── scaler.joblib # Scaler for input feature preprocessing │ └── requirements.txt # Python dependencies ├── Dockerfile # Docker configuration └── README.md # Project documentation
+. ├── app/ 
+│ ├── Server.py # FastAPI server code 
+│ ├── model.joblib # Trained Kernel SVM model 
+│ ├── scaler.joblib # Scaler for input feature preprocessing 
+│ └── requirements.txt # Python dependencies 
+├── Dockerfile # Docker configuration 
+└── README.md # Project documentation
