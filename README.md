@@ -87,3 +87,7 @@ python app/Server.py
 - This setup is optimized for deployment in production using Docker. For cloud deployment, you can:
   - Use a container service like AWS ECS, Google Cloud Run, or Azure Container Apps.
   - Deploy using Kubernetes.
+
+## Web App
+
+![image](https://github.com/user-attachments/assets/278b07f7-419a-4f59-ae0d-62c8c9d3834f)
