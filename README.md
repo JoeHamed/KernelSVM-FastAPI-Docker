@@ -53,3 +53,32 @@ The FastAPI app will be accessible at `http://localhost:8000`.
 ### Testing the API
 - Navigate to the Swagger UI: http://localhost:8000/docs
 - Use the /predict endpoint to make predictions.
+
+### Sample Payload for /predict
+```bash
+{
+  "features": [30, 87000]
+}
+```
+### Sample Response
+```bash
+{
+  "Class : ": "Purchased"
+}
+```
+## Running Locally (Optional)
+- If you prefer running the application locally without Docker:
+1. Install Dependencies
+```bash
+pip install -r app/requirements.txt
+```
+2. Run the Application
+```bash
+python app/Server.py
+```
+## Customization
+### Training the Model
+The model is trained using the "`Social Network Ads`" dataset. Update the dataset or model parameters in `model.py` as needed and retrain using the same process.
+
+### Scaling Inputs
+The input features are scaled using a saved `StandardScaler`. Update the scaler logic if your dataset changes.
