@@ -78,7 +78,12 @@ python app/Server.py
 ```
 ## Customization
 ### Training the Model
-The model is trained using the "`Social Network Ads`" dataset. Update the dataset or model parameters in `model.py` as needed and retrain using the same process.
+- The model is trained using the "`Social Network Ads`" dataset. Update the dataset or model parameters in `model.py` as needed and retrain using the same process.
 
 ### Scaling Inputs
-The input features are scaled using a saved `StandardScaler`. Update the scaler logic if your dataset changes.
+- The input features are scaled using a saved `StandardScaler`. Update the scaler logic if your dataset changes.
+
+## Deployment
+- This setup is optimized for deployment in production using Docker. For cloud deployment, you can:
+  - Use a container service like AWS ECS, Google Cloud Run, or Azure Container Apps.
+  - Deploy using Kubernetes.
