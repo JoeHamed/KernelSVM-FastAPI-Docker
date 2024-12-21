@@ -50,3 +50,6 @@ docker run -d -p 8000:8000 kernel-svm-fastapi
 The FastAPI app will be accessible at `http://localhost:8000`.
 
 ## Usage
+### Testing the API
+- Navigate to the Swagger UI: http://localhost:8000/docs
+- Use the /predict endpoint to make predictions.
