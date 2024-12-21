@@ -87,3 +87,12 @@ python app/Server.py
 - This setup is optimized for deployment in production using Docker. For cloud deployment, you can:
   - Use a container service like AWS ECS, Google Cloud Run, or Azure Container Apps.
   - Deploy using Kubernetes.
+
+
+### Highlights of the README:
+1. **Structure Overview**: Gives a clear understanding of the project files.
+2. **Setup Instructions**: Covers both Dockerized and local execution methods.
+3. **Usage Section**: Explains how to test the API with a sample payload.
+4. **Customization**: Describes how to modify the model or input processing.
+5. **Deployment Tips**: Mentions cloud deployment options.
+
